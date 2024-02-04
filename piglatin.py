@@ -6,7 +6,7 @@ Created on Sat Apr  4 12:15:09 2020
 """
 
 def traducir_a_pig_latin(texto: str)->str:
-    vocales =  ["a","e", "i", "o", "u"]
+    vocales =  ["a","i", "o", "u"]
     lista = texto.split()
     final = ""
     for i in lista:
